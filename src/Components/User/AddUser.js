@@ -36,8 +36,8 @@ const AddUser = (props) => {
             <div>
             <label htmlFor='username'>Username</label>
             <input id="username" type='text' value={enteredName} onChange={usernameChangeHandler}/>
-            <label htmlFor='username'>Age (Years)</label>
-            <input id="username" type='number' value={enteredAge} onChange={uageChangeHandler}/>
+            <label htmlFor='age'>Age (Years)</label>
+            <input id="age" type='number' value={enteredAge} onChange={uageChangeHandler}/>
             <Button type='submit'>Add User</Button>
             </div>
         </form>
